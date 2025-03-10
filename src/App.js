@@ -1,15 +1,14 @@
-
-import React from 'react';
-import Calendar from './components/calendar';
-import './App.css';
+import React from "react";
+import Calendar from "./components/calendar";
+import Timeline from "./components/timeline";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Time line</h1>
-      <Calendar /> 
+    <div>
+      <Calendar />
+      <Timeline />
     </div>
   );
-}
+};
 
 export default App;
