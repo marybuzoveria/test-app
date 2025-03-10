@@ -1,6 +1,6 @@
 import React from "react";
 
-const timelineEvent = ({ event, status }) => {
+const TimelineEvent = ({ event, status }) => {
   const eventDate = new Date(event.start); 
   const position = eventDate.getDate(); 
 
@@ -13,4 +13,4 @@ const timelineEvent = ({ event, status }) => {
   );
 };
 
-export default timelineEvent;
+export default TimelineEvent;

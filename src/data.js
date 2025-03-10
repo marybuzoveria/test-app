@@ -1,9 +1,9 @@
-const months = [
+export const months = [
     "January", "February", "March", "April", "May", "June", 
     "July", "August", "September", "October", "November", "December"
   ];
   
-  const statuses = [
+export const statuses = [
     {
       name: "Course Start Dates",
       id: "course_start",
@@ -34,7 +34,7 @@ const months = [
     },
   ];
   
-  const eventData = [
+export const eventData = [
     {
       eventId: 1,
       status: "course_start",
@@ -86,7 +86,7 @@ const months = [
     },
   ];
   
-  const statusData = {
+export const statusData = {
     course_start: {
       image: "mdi-mailbox-open-up-outline",
       color: "#DB9B1F",

@@ -1,6 +1,6 @@
 import React from "react";
 import { eventData, statusData } from "../data"; 
-import TimelineEvent from "./timeline-event"; 
+import TimelineEvent from "./TimelineEvent"; 
 
 const Timeline = () => {
   const sortedEvents = eventData.sort((a, b) => new Date(a.start) - new Date(b.start));
