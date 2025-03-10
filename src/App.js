@@ -1,6 +1,6 @@
 import React from "react";
-import Calendar from "./components/Calendar";
-import Timeline from "./components/Timeline";
+import Calendar from "./components/calendar";
+import Timeline from "./components/timeline";
 
 const App = () => {
   return (
